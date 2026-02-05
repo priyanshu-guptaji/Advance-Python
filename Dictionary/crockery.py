@@ -59,11 +59,11 @@ del crockery["Open"]
 print("\nAfter deleting 'Open':")
 print(crockery)
 
-# clear()
-temp = crockery.copy()   # backup
-temp.clear()
-print("\nAfter clear():")
-print(temp)
+# # clear()
+# temp = crockery.copy()   # backup
+# temp.clear()
+# print("\nAfter clear():")
+# print(temp)
 
 
 print("\nLooping through dictionary:")
