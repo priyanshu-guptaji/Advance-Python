@@ -4,3 +4,9 @@ print(dict)
 
 x = dict.get("marks")
 print(x)
+
+x = dict.values()
+print(x)
+
+x = dict.keys()
+print(x)
