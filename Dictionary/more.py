@@ -24,3 +24,9 @@ print(dict)
 
 dict["city"] = "Gunupur"
 print(dict)
+
+dict.update({"Section" : "CSE-I"})
+print(dict)
+
+# dict.pop("Attendance")
+# print(dict)
