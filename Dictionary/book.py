@@ -1,15 +1,14 @@
-
 book = {
-    "title": "Python Programming",
-    "author": "Guido van Rossum",
-    "year": 2024,
-    "price": 499,
+    "title": "Life Lessons",
+    "author": "Priyanshu Gupta",
+    "year": 2026,
+    "price": 99,
     "chapters": {
         1: "Introduction",
-        2: "Variables & Data Types",
-        3: "Control Statements",
-        4: "Functions",
-        5: "Dictionary & Sets"
+        2: "Human Behaviour",
+        3: "Human Tendency",
+        4: "Think with Heart, not Brain",
+        5: "Always Brain is not Right"
     },
     "available": True
 }
@@ -36,6 +35,3 @@ print(book.items())
 
 print("\nChapters:")
 print(book.get("chapters"))
-
-
-
