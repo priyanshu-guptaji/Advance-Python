@@ -1,4 +1,8 @@
-dict = {"name" : "Priyanshu Gupta" , "roll no" : 513 , "marks" : {90 , 70 ,80} , "College" : "GIET"}
+dict = {"name" : "Priyanshu Gupta" , 
+        "roll no" : 513 , 
+        "marks" : {90 , 70 ,80} , 
+        "College" : "GIET"}
+
 print(dict)
 
 
@@ -30,3 +34,5 @@ print(dict)
 
 # dict.pop("Attendance")
 # print(dict)
+
+#dict.clear()
