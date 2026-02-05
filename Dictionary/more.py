@@ -1,4 +1,4 @@
-dict = {"name" : "ram" , "roll no" : 101 , "marks" : {0 , 70 ,80} , "College" : "GIET"}
+dict = {"name" : "Priyanshu Gupta" , "roll no" : 513 , "marks" : {90 , 70 ,80} , "College" : "GIET"}
 print(dict)
 
 
@@ -20,4 +20,7 @@ dict['College'] = "GIETU"
 print(dict)
 
 dict.update({"Attendance" : "Present"})
+print(dict)
+
+dict["city"] = "Gunupur"
 print(dict)
