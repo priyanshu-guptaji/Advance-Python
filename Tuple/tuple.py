@@ -1,4 +1,3 @@
-# Tuple access using index
 t = (10, 20, 30, 40, 50)
 
 print("First element:", t[0])
@@ -15,4 +14,3 @@ print(sorted(t))
 print(tuple(reversed(t)))
 print(t.count(10))
 print(t.index(30))
-print("Accessing Tuple elements using indexing:")

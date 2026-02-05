@@ -1,7 +1,8 @@
-text = "Hi My name is Guptaeen"
+text = "hi My name is Guptaeen"
 print(text.upper())
 print(text.lower())
 print(text.istitle())
+print(text.title())
 print(text.count('i'))
 print(text.find('guptaeen'))
 print(text.startswith("Hi"))
@@ -9,3 +10,4 @@ print(text.endswith("gupateen"))
 print(text.split())
 print('Hi' in text)
 print('Hello' not in text)
+print(text.capitalize())
