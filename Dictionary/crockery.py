@@ -9,22 +9,34 @@ crockery = {
         4: "Serving Spoon",
         5: "Glass"
     },
-    "available": True
+    "Location":"China" 
 }
 
 
-print("Crockery Details:")
+print("\nCrockery Details:")
 print(crockery)
 
-print("Shop Name:")
+print("\nShop Name:")
 print(crockery.get("shop_name"))
 
-print("Owner Name:")
+print("\nOwner Name:")
 print(crockery.get("owner"))
 
 
 print("\nCrockery Items:")
 print(crockery.get("items"))
+
+crockery['Location'] = "India"
+print(crockery)
+
+crockery.update({"Attendance" : "Present"})
+print(crockery)
+
+crockery["city"] = "Gunupur"
+print(crockery)
+
+crockery.update({"Section" : "CSE-I"})
+print(crockery)
 
 
 
