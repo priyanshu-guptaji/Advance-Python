@@ -1,3 +1,4 @@
+# Crockery Dictionary
 crockery = {
     "shop_name": "Sandeep Kitchen",
     "owner": "Priyanshu Gupta",
@@ -9,36 +10,62 @@ crockery = {
         4: "Serving Spoon",
         5: "Glass"
     },
-    "Location":"China" 
+    "Location": "China"
 }
 
-
-print("\nCrockery Details:")
+print("Initial Dictionary:")
 print(crockery)
 
-print("\nShop Name:")
-print(crockery.get("shop_name"))
+# get()
+print("\nUsing get():")
+print("Shop Name:", crockery.get("shop_name"))
+print("Owner:", crockery.get("owner"))
 
-print("\nOwner Name:")
-print(crockery.get("owner"))
 
 
-print("\nCrockery Items:")
-print(crockery.get("items"))
+print("\nUsing keys():")
+print(crockery.keys())
 
-crockery['Location'] = "India"
-print(crockery)
 
-crockery.update({"Attendance" : "Present"})
-print(crockery)
+print("\nUsing values():")
+print(crockery.values())
+
+
+print("\nUsing items():")
+print(crockery.items())
+
 
 crockery["city"] = "Gunupur"
+print("\nAfter adding city:")
 print(crockery)
 
-crockery.update({"Section" : "CSE-I"})
+
+crockery.update({
+    "Location": "India",
+    "Price": 5999,
+    "Open": "Yes"
+})
+print("\nAfter update():")
 print(crockery)
 
 
+removed_price = crockery.pop("Price")
+print("\nAfter pop():")
+print("Removed Price:", removed_price)
+print(crockery)
+
+# del keyword
+del crockery["Open"]
+print("\nAfter deleting 'Open':")
+print(crockery)
+
+# clear()
+temp = crockery.copy()   # backup
+temp.clear()
+print("\nAfter clear():")
+print(temp)
 
 
-
+print("\nLooping through dictionary:")
+for key, value in crockery.items():
+    print(key, ":", value)
