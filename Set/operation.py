@@ -7,9 +7,6 @@ print("Set 2:", set2)
 
 union_set = set1 | set2
 print("\nUnion (Set1 | Set2):", union_set)
-print(set1.union(set2))
-print()
-
 
 intersection_set = set1 & set2
 print("Intersection (Set1 & Set2):", intersection_set)
