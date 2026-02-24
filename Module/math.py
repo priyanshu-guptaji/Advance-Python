@@ -1,0 +1,16 @@
+import math
+print(dir(math))
+
+print(abs(-10))      
+print(pow(2, 3))    
+print(round(3.7))    
+print(max(10, 20))   
+print(min(10, 20))   
+print(sum([1,2,3]))  
+print(math.sqrt(16))   
+print(math.floor(4.9))  
+print(math.ceil(4.1))   
+print(math.factorial(5))  
+print(math.pi)
+print("Area Of Circle:")
+print(math.pi * 2.5**2)
