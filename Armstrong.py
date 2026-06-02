@@ -3,7 +3,7 @@ def arm(n):
     power = len(str(n))
     total = 0
 
-    while n > 0:
+    while n > 0: 
         digit = n % 10
         total += digit ** power
         n //= 10
