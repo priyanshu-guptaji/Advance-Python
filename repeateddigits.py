@@ -4,9 +4,9 @@ def digits(n, m):
     for i in range(n, m + 1):
         digit = str(i)
 
-        if digit[0] != digit[1]:
+        if len(set(digit)) == len(digit):
             count += 1
 
     return count
 
-print(digits(11, 15))
+print(digits(11, 150))
