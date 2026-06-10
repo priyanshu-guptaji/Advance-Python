@@ -5,20 +5,20 @@ count = 0
 
 for x in range(max(a), min(b) + 1):
 
-    valid = True
+    flag = True
 
     for i in a:
         if x % i != 0:
-            valid = False
+            flag = False
             break
 
-    if valid:
+    if flag:
         for j in b:
             if j % x != 0:
-                valid = False
+                flag = False
                 break
 
-    if valid:
+    if flag:
         count += 1
 
 print(count)
