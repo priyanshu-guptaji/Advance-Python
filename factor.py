@@ -10,13 +10,11 @@ for x in range(max(a), min(b) + 1):
     for i in a:
         if x % i != 0:
             flag = False
-            break
+    
+    for i in b:
+        if x % i != 0:
+            flag = False
 
-    if flag:
-        for j in b:
-            if j % x != 0:
-                flag = False
-                break
 
     if flag:
         count += 1
